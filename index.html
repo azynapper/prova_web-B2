@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <title>Prova B2</title>
+    </head>
+    <body>
+        <div class="mainDiv">
+            <header>
+            <h2>Ariel França Correia</h2>
+            <h2>CC1MD</h2>
+        </header>
+        
+        <h1>Formulario</h1>
+
+        <form id="formulario">
+            <table>
+                <tr>
+                    <td><label for="nome">Nome:</label></td>
+                    <td><input type="text" id="nome" name="nome"></td>
+                </tr>
+                <tr>
+                    <td><label for="matricula">Matrícula:</label></td>
+                    <td><input type="text" id="matricula" name="matricula"></td>
+                </tr>
+                <tr>
+                    <td><label for="nota1">Nota 1:</label></td>
+                    <td><input type="number" id="nota1" name="nota1" step="0.01"></td>
+                </tr>
+                <tr>
+                    <td><label for="nota2">Nota 2:</label></td>
+                    <td><input type="number" id="nota2" name="nota2" step="0.01"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;"><button type="submit">Registrar</button></td>
+                </tr>
+            </table>
+        </form>
+
+        <table id="tabela">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Matrícula</th>
+                    <th>Nota 1</th>
+                    <th>Nota 2</th>
+                    <th>Média</th>
+                    <th>Situação</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <button id="clear">Limpar Tabela</button>
+        </div>
+
+    <script src="index.js"></script>
+    </body>
+</html>
